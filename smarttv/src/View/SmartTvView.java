@@ -13,6 +13,8 @@ public class SmartTvView {
         System.out.println("Volume atual: " + smartTv.getVolume());
     }
 
-
+    public void mostrarMensagem(String mensagem){
+        System.out.println(mensagem);
+    }
 
 }
